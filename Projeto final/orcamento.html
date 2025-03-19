@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento</title>
+    <link rel="stylesheet" href="stOrcamento.css">
+</head>
+
+<body>
+    
+    <header>
+
+        <a href="landingPage.html" id="logo">
+            <img src="../Atv 2/icones/logotipo.png" class=logo alt="logo">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="landingPage.html" class="effect">Home</a></li>
+                <li><a href="galeria.html" class="effect nav-meio"> Galeria</a></li>
+                <li><a href="orcamento.html" class="effect">Orçamento</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <article>
+        <h1 class="titulo">Orçamento</h1> <br>
+        <h3 class="subtitulo">Abaixo, segue um formulário para solicitar nossos serviços</h3>
+
+        <form method="POST"> <!-- Formulário para os orçamentos-->
+
+            <section class="formulario">
+                Nome: <input type="text" name="nome" value="" placeholder=" Nome" maxlength="30" size="30" required > <!-- maxlength="número"--> 
+                Telefone: <input type="text" name="telefone" value="" placeholder=" ( ) 12345-6789" maxlength="16" size="30" required>
+                <br>
+
+                Email: <input type="email" name="email" value="" placeholder=" abc@gmail.com" maxlength="30" size="30"  required>
+                Endereço: <input type="text" name="endereco" value="" maxlength="30" size="30" required>
+                <br>
+
+                <div class="data">
+                Data:<input type="date" name="data" value="" maxlength="30" size="30" required>
+                </div>
+
+            </section>
+            <hr>
+
+            <section class="formulario_2">
+                Idade média dos participantes:<input type="text" name="idadeMedia" value="" required>
+                <br>
+
+                Tipo de evento:<input type="text" name="tipoEvento" required></input>
+                <br>
+            </section>
+
+            <section class="formulario_3">
+            <label>Atividades necessárias:</label>
+            <br>
+            <input type="checkbox" id="teatro" class=checkbox value="sim">
+            <label for="teatro">Teatro</label>
+            <br>
+
+            <input type="checkbox" id="brinquedo" class=checkbox value="sim">
+            <label for="brinquedo">Brinquedo</label>
+            <br>
+
+            <input type="checkbox" id="apresentacaoEducativa" class=checkbox value="sim">
+            <label for="apresentacaoEducativa">Apresentação Educativa</label>
+            <br>
+            </section>
+
+            <section class="txtArea">
+            <label>Observações:</label><br><br>
+            <textarea name="observacoes" id="observacoes" placeholder="Coloque aqui qualquer informação adicional, caso a tenha"></textarea>
+            <br>
+            </section>
+            <br>
+
+            <input type="submit" value="Enviar" id="enviar">
+
+        </form>
+
+    </section>
+
+    <footer>
+
+        <a href="#">
+            <img src="../Atv 2/icones/whatsapp.png" class="icones" alt="Ícone Whatsapp">
+        </a>
+
+        <a href="#">
+            <img src="../Atv 2/icones/youtube.png" class="icones" alt="Ícone Youtube">
+        </a>
+
+        <a href="#">
+            <img src="../Atv 2/icones/insta.png" class="icones" alt="Ícone Instagram">
+        </a>
+
+    </footer>
+    
+</body>
+
+</html>

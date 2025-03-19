@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2013/11/03/08/05/cheers-204742_640.jpg");
+    background-blend-mode:lighten;
+    background-color: rgba(255, 255, 255, 0.829);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Header e nav - Start*/
+header{ 
+    background-color: rgba(0, 0, 255, 0.719);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.5rem;
+}
+
+#logo{
+    margin-left:4rem;
+    background-color: transparent;
+    height:4.5em;
+    width:4.5em;
+    display:flex;
+}
+
+ul{
+    list-style-type: none;
+    padding:0;
+    overflow:hidden;
+    display:flex
+}
+
+li{
+    display: inline;
+    color:white;
+    margin:0.6em;
+    border-right:1px;
+    position:relative;
+    display:flex;
+}
+
+li a{
+    font-size:1.2rem;
+    font-weight:bold;
+    font-style: italic;
+    display: inline-block;
+    text-decoration:none;
+    color:black;
+    padding:0.7em 0.8em;
+    margin-right:-0.5em;
+    margin-left:-0.5em;
+    border-right:0.5px solid black;
+    border-left:0.5px solid black;
+}
+
+.effect{
+    color:white;
+    transition: all 400ms ease;
+    position:relative;
+}
+
+li a:hover{
+    border:transparent;
+    background-color:darkblue;
+    transition:all 0.3s ease;;
+}
+
+nav{
+    position:relative;
+    float:right;
+    display:flex;
+}
+
+.nav-meio{
+    border:none;
+}
+
+/*Header e nav - End*/
+
+/*Fontes - Start*/
+h1{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top:1.5rem;
+    font-size:xx-large;
+}
+
+h3{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom:1.5rem;
+    font-size:x-large;
+    font-weight: lighter;
+}
+/*Fontes - End*/
+
+/*Formulário - Start*/
+form{
+    color:white;
+    font-size:1.2rem;
+    background-color: rgba(0, 0, 255, 0.719);
+    padding:2rem 1rem 2rem 1rem;
+    justify-content: space-around;
+    border-radius:1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2rem 10rem;
+}
+
+.formulario input {
+    height:1.5rem;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    padding-left:1rem;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.data{
+    margin-left:1rem;
+}
+
+hr{
+    border-color:darkblue;
+    width:100%;
+    margin:auto;
+}
+
+section{
+    margin-bottom:2rem;
+}
+
+/*Formulário - End*/
+
+/*Formulário_2 - Start*/
+
+.formulario_2 input{
+    height:1.5rem;
+    border-radius:5px;
+    border:none;
+    outline:none;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+/*Formulário_2 - End*/
+
+/*Formuláro_3 - Start*/
+.formulario_3{
+    justify-content: left;
+    vertical-align:bottom;
+    display: relative;
+}
+
+.formulario_3 label{
+    margin-left:1rex;
+    bottom:3px;
+    float:left;
+    font-size:large;
+    vertical-align:text-top;
+    position:relative;
+}
+
+.checkbox{
+    border-radius:10rem;
+    float:left;
+}
+
+/*Formulário_3 - End*/
+
+.txtArea{
+    align-self: center;
+}
+
+.txtArea label{
+    float:left;
+    margin-left:0.8rem;
+}
+
+textarea{
+    height:6rem;
+    width:30em;
+    border:0.5rex lightblue solid;
+    border-radius: 10px;
+    resize:none;
+}
+
+#enviar{
+    justify-content: center;
+    margin:2rem;
+    width:8em;
+    height:2rem;
+    border: 1px solid black;
+    border-radius:5rem;
+    transition: all 400ms ease-out;
+    background-color: white;
+}
+
+#enviar:hover{
+    background-color: rgb(70, 132, 226);
+    color:white;
+    transition: 0.5s;
+}
+
+/*Footer - Start*/
+footer{
+    padding:1rem;
+    background-color: rgba(0, 0, 255, 0.719);
+    margin-top:4rem;
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom:0;
+}
+
+.icones{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:3.5rem;
+    height:3.5rem;
+}
+/*Footer - End*/
