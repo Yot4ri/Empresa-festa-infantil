@@ -3,5 +3,5 @@ Projeto de Landing Page para empresa prestadora de serviços de festas infantis,
 Para fins de aprendizado
 
 ## Principais tecnologias💻:
-HTML - Estruturação da página e suas funcionalidades </br>
-CSS - Estilização e utilização de animações simples
+- HTML - Estruturação da página e suas funcionalidades </br>
+- CSS - Estilização e utilização de animações simples
